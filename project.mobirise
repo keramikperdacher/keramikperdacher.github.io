@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "fotos.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -18,22 +18,34 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false,
-    "gdpr": false,
-    "witsec-language": false,
+    "cookiesAlert": {
+      "customDialogSelector": true,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "witsec-language": "de",
     "witsec-mailform": false,
-    "witsec-white-label": false
+    "witsec-white-label": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "gdpr": false
   },
   "pages": {
-    "index.html": {
+    "home.html": {
       "settings": {
         "main": true,
-        "title": "Home ",
-        "meta_descr": "Töpferei und Kachelofen",
+        "title": "Keramik Perdacher: Deine Töpferei in Keutschach",
+        "meta_descr": "Die Töpferei Perdacher hat einiges zu bieten. Von Reindlingsformen bis hin zu Kachelöfen. Hier ist wirklich für jeden etwas dabei.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -349,10 +361,12 @@
         }
       ]
     },
-    "page1.html": {
+    "fotos.html": {
       "settings": {
-        "title": "Fotos",
-        "order": 1
+        "title": "Keramik Perdacher: Fotos",
+        "order": 1,
+        "meta_descr": "Hier findest du Fotos vom Geschäft der Töpferei Perdacher. Schau es dir doch mal an, vielleicht gefällt dir etwas.",
+        "meta_image": "@PROJECT_PATH@/assets/images/00100trportrait-00100-burst20200408161623209-cover-2000x1500.jpg"
       },
       "components": [
         {
@@ -655,10 +669,11 @@
         }
       ]
     },
-    "page2.html": {
+    "impressum.html": {
       "settings": {
-        "title": "Impressum",
-        "order": 2
+        "title": "Keramik Perdacher: Impressum",
+        "order": 2,
+        "meta_descr": "Hier findest du das Impressum der Töpferei Perdacher."
       },
       "components": [
         {
@@ -786,10 +801,11 @@
         }
       ]
     },
-    "page3.html": {
+    "datenschutz.html": {
       "settings": {
-        "title": "Datenschutz",
-        "order": 3
+        "title": "Keramik Perdacher: Datenschutz",
+        "order": 3,
+        "meta_descr": "Deine Daten gehören dir. "
       },
       "components": [
         {
@@ -917,10 +933,11 @@
         }
       ]
     },
-    "page4.html": {
+    "webdev.html": {
       "settings": {
-        "title": "Web-Dev",
-        "order": 4
+        "title": "Web-Development",
+        "order": 4,
+        "meta_descr": "Informationen über das Web-Dev"
       },
       "components": [
         {
