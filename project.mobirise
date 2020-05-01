@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "impressum.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -46,7 +46,7 @@
         "main": true,
         "title": "Keramik Perdacher: Deine Töpferei in Keutschach",
         "meta_descr": "Die Töpferei Perdacher hat einiges zu bieten. Von Reindlingsformen bis hin zu Kachelöfen. Hier ist wirklich für jeden etwas dabei.",
-        "header_custom": "",
+        "header_custom": "google-site-verification: google8b8a7f8b987428ce.html",
         "footer_custom": "",
         "html_before": ""
       },
